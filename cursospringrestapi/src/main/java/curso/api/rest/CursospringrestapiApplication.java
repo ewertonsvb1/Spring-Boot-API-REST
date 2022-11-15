@@ -16,7 +16,7 @@ import org.springframework.web.servlet.config.annotation.EnableWebMvc;
 @SpringBootApplication // vaai levantar o servidor 
 @EntityScan(basePackages = {"curso.api.rest.model"})// depois ele vai ler todas as classes que estao dentro desse pac e gerar as tabelas automaticas
 @ComponentScan(basePackages = {"curso.*"}) // injecao de dependencias, spring vai controlar todos os objetos
-@EnableJpaRepositories(basePackages = {"curso.apit.rest.repository"})
+@EnableJpaRepositories(basePackages = {"curso.api.rest.repository"})
 @EnableTransactionManagement
 @EnableWebMvc
 @RestController
