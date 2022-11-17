@@ -19,7 +19,7 @@ public class Usuario implements Serializable{
 	private Long id;
 	private String login;
 	private String senha;
-	
+	private String nome;
 	
 	public Long getId() {
 		return id;
@@ -45,7 +45,7 @@ public class Usuario implements Serializable{
 	public void setNome(String nome) {
 		this.nome = nome;
 	}
-	private String nome;
+
 
 
 	@Override
