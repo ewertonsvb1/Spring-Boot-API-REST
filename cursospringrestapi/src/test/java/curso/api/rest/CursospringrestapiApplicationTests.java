@@ -8,6 +8,6 @@ class CursospringrestapiApplicationTests {
 
 	@Test
 	void contextLoads() {
-	}
+	 }
 
 }
